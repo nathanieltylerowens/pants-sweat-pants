@@ -1,0 +1,409 @@
+body {
+  font-family: 'Jost', sans-serif;
+  overflow-x: hidden;
+  background-color: #C9CADC;
+}
+
+header h1 {
+  padding: 15px 0px 0px 15px;
+  color: #2B363E;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+header a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+header h1:hover {
+  color: #4c5e6c;
+}
+
+header p {
+  margin-top: 0px;
+  margin-left: 15px;
+  color: #B17B33;
+}
+
+#navLinks {
+  width: 100%;
+  list-style-type: none;
+  display:flex;
+  margin: 0px 0px 15px 15px;
+  padding: 0px;
+  align-items: flex-end;
+}
+
+#navLinks a{
+  color: #8592AC;
+  font-weight: bold;
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navLinks a:hover {
+  color: #B17B33;
+}
+
+.navbar-text {
+  padding: 0px 100px 0px 0px;
+  font-weight: bold;
+  justify-content: right;
+  color: #8592AC;
+}
+
+.jumbotron {
+  padding: 0px;
+  background-image: url("images/jumbotronimage.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+}
+
+.container {
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+}
+
+.display-4 {
+  padding-top: 15px;
+}
+
+.jumbotron p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#shopPage {
+  background-image: url("https://cdn.miscellaneoushi.com/1920x1080/20121022/headphones%20blondes%20women%20graffiti%20dance%20headphones%20girl%20sunglasses%20dancers%20dancing%20sweatpants%20192_www.miscellaneoushi.com_36.jpg ");
+}
+
+.categoryH1 {
+  text-align: center;
+  color: #2B363E;
+  margin-bottom: 12px;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoryCard {
+  margin: 0px 10px;
+}
+
+.categoryCard h3 {
+  text-align: center;
+  color: #524D57;
+  margin: 6px 0px;
+}
+
+.categoryBody {
+  padding: 0px 20px 20px 20px;
+}
+
+.categoryP {
+  color: #8592AC;
+}
+
+.categoryButton {
+  background-color: #8592AC;
+  border: 1px solid #8592AC;
+}
+
+.viewCart {
+  background-color: #8592AC;
+  border: 1px solid #8592AC;
+}
+
+.customerContainer {
+  margin: 40px auto 0;
+  max-width: 800px;
+  padding:20px;
+}
+
+.customerContainer h2 {
+  color: #2B363E;
+}
+
+ .customerContainer p {
+  color: #2B363E;
+} 
+
+#productCardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+#productCardContainer img {
+  object-fit: contain;
+}
+
+.sweatCardBody {
+  color: #2B363E; 
+}
+
+.sweatsCard img {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.sweatsCard {
+  max-width: 300px;
+  border: 2px solid #2b363e;
+}
+
+select {
+  -webkit-appearance: none;
+  background-color: #6c757d;
+  color: white;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 10%;
+  cursor: pointer;
+  min-width: 70px;
+  margin: 10px;
+}
+
+footer {
+  border-top: 1px solid rgba(133, 146, 172, 0.406);
+  margin-top: 32px;
+}
+
+footer ul {
+  text-align: center;
+  min-width: 200px;
+}
+
+footer li {
+    list-style: none;
+    margin: 5px;
+}
+
+.social-icon {
+  height: 1em;
+}
+
+#footerLinks a{
+  color: #8592AC;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#footerLinks a:hover {
+  color: #B17B33;
+  
+}
+
+.nav-col {
+  width: 414px;
+  margin: 10px;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 0px 11%;
+}
+
+#about-header-text {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -30px;
+  background-color: white;
+  padding: 25px;
+  width: 80%;
+}
+
+.carousel-caption{
+  position: absolute;
+  color: #B17B33;
+  font-style: italic;
+  top: 40%;
+}
+.reviewTitle{
+  color: #8592AC;
+  margin: 30px;
+  font-size: 25pt;
+  border-top: 3px;
+  border-color: #8592AC;
+}
+#reviewsCarousel{
+  max-height: auto;
+  max-width: 100%;
+}
+.customerReviews{
+  text-align: center;
+  color: #524D57;
+}
+#personalReviews{
+  margin: 20px;
+}
+#reviewCard{
+  background-color: #C9CADC;
+  border: none;
+  padding: 10px;
+}
+#reviewCardBody{
+  background-color: #8592AC;
+  border-radius: 5px;
+}
+#reviewCard p{
+  font-size: 12pt;
+}
+#reviewCard h5{
+  font-size: 17px;
+  color: #C9CADC;
+}
+.formReview{
+  display: flex;
+  justify-content: center;
+  color: #524D57;
+}
+.formTitle{
+  text-align: center;
+  color: #8592AC;
+}
+.btn-outline-secondary {
+  color: #B17B33;
+  border-color: #B17B33;
+}
+.btn-outline-secondary:hover{
+  color: #c9cadc;
+  border-color: #C9CADC;
+  background-color: #524d57;
+}
+.emailResponse p{
+  color: #B17B33;
+}
+
+.emailResponse h2 {
+  color: #B17B33;
+}
+
+.clientName {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+#emailSubmit {
+  background-color: #8592AC;
+  border: 1px solid #8592AC;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-frame {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 50px auto;
+  }
+
+  .about-frame img {
+    width: 90%;
+  }
+
+  .about-textblock-left {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    max-width: 30%;
+  }
+
+  .about-textblock-right {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .jumbotron {
+    padding: 0px;
+    background-image: url("images/jumbotronimage_med.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron {
+    padding: 0px;
+    background-image: url("images/jumbotronimage_tab.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+  }
+
+  .about-frame {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+  }
+
+  .about-frame img {
+    width: 90%;
+    align-self: center;
+  }
+
+  .about-textblock-left, .about-textblock-right  {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    align-self: center;
+  }
+
+  #about-header-text {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -30px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .jumbotron {
+    padding: 0px;
+    background-image: url("images/jumbotronimage_phone.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+  }
+
+  .nav-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .nav-col {
+    width: 100%;
+    margin: 0px;
+  }
+}
