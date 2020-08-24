@@ -210,7 +210,7 @@ const buildProductCards = (sweatsArr) => {
                               </select>
                             </div>`
           } else if (sweatsArr[i].size.includes('S','M','L')){
-            domString += `
+            domString += ` 
                             <div class="dropdown">
                               <select class="sizeDropdown" id="selectSize${i}">
                                 <option>size ⌄</option>
